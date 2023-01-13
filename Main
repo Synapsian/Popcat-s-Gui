@@ -56,7 +56,7 @@ Execute.Position = UDim2.new(0.187095299, 0, 0.789196908, 0)
 Execute.Size = UDim2.new(0, 121, 0, 41)
 Execute.Style = Enum.ButtonStyle.RobloxRoundDefaultButton
 Execute.Font = Enum.Font.Bangers
-Execute.Text = "EXECUTE"
+Execute.Text = "Loading..."
 Execute.TextColor3 = Color3.fromRGB(0, 0, 0)
 Execute.TextSize = 35.000
 
@@ -131,8 +131,8 @@ ImageLabel.ZIndex = -1
 ImageLabel.Image = "http://www.roblox.com/asset/?id=9884874559"
 
 
+task.wait(1)
 
-Execute.MouseButton1Click:connect(function()
     Main:Destroy()
 
 local sound = Instance.new('Sound');
