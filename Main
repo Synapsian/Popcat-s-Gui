@@ -1,0 +1,149 @@
+-- Gui to Lua
+-- Version: 3.2
+
+-- Instances:
+
+local Main = Instance.new("ScreenGui")
+local Popup = Instance.new("Frame")
+local ACompletelyNormalPopcat = Instance.new("TextLabel")
+local SynapseLogo = Instance.new("ImageLabel")
+local Execute = Instance.new("TextButton")
+local UTBoxRU = Instance.new("Frame")
+local UTBoxLD = Instance.new("Frame")
+local UTBoxDWN = Instance.new("Frame")
+local UTBoxUP = Instance.new("Frame")
+local Determination = Instance.new("Frame")
+local TextLabel = Instance.new("TextLabel")
+local BG = Instance.new("Frame")
+local ImageLabel = Instance.new("ImageLabel")
+
+--Properties:
+
+Main.Name = "Main"
+Main.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+
+Popup.Name = "Popup"
+Popup.Parent = Main
+Popup.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Popup.Position = UDim2.new(0.498033941, 0, 0.41359058, 0)
+Popup.Size = UDim2.new(0, 203, 0, 205)
+Popup.Style = Enum.FrameStyle.RobloxRound
+
+ACompletelyNormalPopcat.Name = "ACompletelyNormalPopcat"
+ACompletelyNormalPopcat.Parent = Popup
+ACompletelyNormalPopcat.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ACompletelyNormalPopcat.BackgroundTransparency = 1.000
+ACompletelyNormalPopcat.Position = UDim2.new(-0.0344827585, 0, -0.00487804879, 0)
+ACompletelyNormalPopcat.Size = UDim2.new(0, 200, 0, 50)
+ACompletelyNormalPopcat.Font = Enum.Font.FredokaOne
+ACompletelyNormalPopcat.Text = "POPCAT'S SCRIPTS"
+ACompletelyNormalPopcat.TextColor3 = Color3.fromRGB(255, 0, 0)
+ACompletelyNormalPopcat.TextSize = 25.000
+ACompletelyNormalPopcat.TextWrapped = true
+
+SynapseLogo.Name = "SynapseLogo"
+SynapseLogo.Parent = Popup
+SynapseLogo.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+SynapseLogo.BackgroundTransparency = 1.000
+SynapseLogo.Position = UDim2.new(0.231527105, 0, 0.263414621, 0)
+SynapseLogo.Size = UDim2.new(0, 100, 0, 100)
+SynapseLogo.Image = "http://www.roblox.com/asset/?id=10063978611"
+
+Execute.Name = "Execute"
+Execute.Parent = Popup
+Execute.BackgroundColor3 = Color3.fromRGB(0, 0, 255)
+Execute.Position = UDim2.new(0.187095299, 0, 0.789196908, 0)
+Execute.Size = UDim2.new(0, 121, 0, 41)
+Execute.Style = Enum.ButtonStyle.RobloxRoundDefaultButton
+Execute.Font = Enum.Font.Bangers
+Execute.Text = "EXECUTE"
+Execute.TextColor3 = Color3.fromRGB(0, 0, 0)
+Execute.TextSize = 35.000
+
+UTBoxRU.Name = "UTBox (RU)"
+UTBoxRU.Parent = Main
+UTBoxRU.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+UTBoxRU.BorderColor3 = Color3.fromRGB(255, 255, 255)
+UTBoxRU.BorderSizePixel = 5
+UTBoxRU.Position = UDim2.new(0.533432424, 0, -0.311497837, 0)
+UTBoxRU.Rotation = 50.000
+UTBoxRU.Size = UDim2.new(0, 1770, 0, 1016)
+
+UTBoxLD.Name = "UTBox (LD)"
+UTBoxLD.Parent = Main
+UTBoxLD.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+UTBoxLD.BorderColor3 = Color3.fromRGB(255, 255, 255)
+UTBoxLD.BorderSizePixel = 5
+UTBoxLD.Position = UDim2.new(-0.432406902, 0, 0.597898185, 0)
+UTBoxLD.Rotation = 50.000
+UTBoxLD.Size = UDim2.new(0, 2286, 0, 570)
+
+UTBoxDWN.Name = "UTBox (DWN)"
+UTBoxDWN.Parent = Main
+UTBoxDWN.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+UTBoxDWN.BorderColor3 = Color3.fromRGB(255, 255, 255)
+UTBoxDWN.BorderSizePixel = 5
+UTBoxDWN.Position = UDim2.new(-0.065630056, 0, 0.764005482, 0)
+UTBoxDWN.Rotation = -10.000
+UTBoxDWN.Size = UDim2.new(0, 3656, 0, 570)
+
+UTBoxUP.Name = "UTBox (UP)"
+UTBoxUP.Parent = Main
+UTBoxUP.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+UTBoxUP.BorderColor3 = Color3.fromRGB(255, 255, 255)
+UTBoxUP.BorderSizePixel = 5
+UTBoxUP.Position = UDim2.new(-0.180618629, 0, -0.376095146, 0)
+UTBoxUP.Rotation = -10.000
+UTBoxUP.Size = UDim2.new(0, 3211, 0, 757)
+
+Determination.Name = "Determination"
+Determination.Parent = Main
+Determination.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Determination.BackgroundTransparency = 1.000
+Determination.Position = UDim2.new(0.50873363, 0, 0.0343959741, 0)
+Determination.Size = UDim2.new(0, 100, 0, 100)
+
+TextLabel.Parent = Determination
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.BackgroundTransparency = 1.000
+TextLabel.Position = UDim2.new(-0.479999989, 0, 1, 0)
+TextLabel.Rotation = -10.000
+TextLabel.Size = UDim2.new(0, 200, 0, 50)
+TextLabel.Font = Enum.Font.Gotham
+TextLabel.Text = "i put some effort into this i guess"
+TextLabel.TextColor3 = Color3.fromRGB(255, 255, 0)
+TextLabel.TextSize = 50.000
+
+BG.Name = "BG"
+BG.Parent = Main
+BG.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+BG.BackgroundTransparency = 1.000
+BG.Position = UDim2.new(0.0353711806, 0, 0.0511744954, 0)
+BG.Size = UDim2.new(0, 2209, 0, 949)
+BG.ZIndex = -1
+
+ImageLabel.Parent = BG
+ImageLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel.BackgroundTransparency = 1.000
+ImageLabel.Position = UDim2.new(-0.0498546048, 1, 0.0387410731, 1)
+ImageLabel.Size = UDim2.new(0, 2660, 0, 1592)
+ImageLabel.ZIndex = -1
+ImageLabel.Image = "http://www.roblox.com/asset/?id=9884874559"
+
+
+
+Execute.MouseButton1Click:connect(function()
+    Main:Destroy()
+
+local sound = Instance.new('Sound');
+sound.Parent = game.Players.LocalPlayer.Backpack;
+sound.Volume = 5;
+sound.Looped = false;
+sound.Name = "WelcomeSFX";
+sound.SoundId = "rbxassetid://1650073108";
+sound:Play()
+
+task.spawn(function()
+wait(5)
+sound:Destroy()
+end)
