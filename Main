@@ -131,7 +131,7 @@ ImageLabel.ZIndex = -1
 ImageLabel.Image = "http://www.roblox.com/asset/?id=9884874559"
 
 
-task.wait(1)
+task.wait(2)
 
     Main:Destroy()
 
